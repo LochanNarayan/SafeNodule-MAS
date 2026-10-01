@@ -1720,7 +1720,7 @@ Lochan Narayan K\textsuperscript{1}\quad Manikandan R\textsuperscript{1,*}\par}
         "language backend, the synthetic case generator, the evaluation "
         "harness, the figure and table scripts, and the automated test suite "
         "are released as a single repository at "
-        "\\url{https://github.com/LochanNarayan/Lungnodule-agent}, and are "
+        "\\url{https://github.com/LochanNarayan/SafeNodule-MAS}, and are "
         "also available from the corresponding author on request. "
         "\\textbf{Configuration.} Every parameter is held in one "
         "configuration object and reported in "

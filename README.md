@@ -35,8 +35,8 @@ where a mechanism *fails*.
 Python 3.9+. The only hard dependency is numpy.
 
 ```bash
-git clone https://github.com/LochanNarayan/Lungnodule-agent
-cd Lungnodule-agent/lungnoduleagent_enhanced
+git clone https://github.com/LochanNarayan/SafeNodule-MAS
+cd SafeNodule-MAS/lungnoduleagent_enhanced
 python -m pip install -r requirements.txt
 ```
 
