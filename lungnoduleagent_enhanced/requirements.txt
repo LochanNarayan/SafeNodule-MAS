@@ -1,0 +1,12 @@
+# Core (required) — the whole pipeline + evaluation runs with just numpy.
+numpy>=1.21
+
+# Optional: figures for `python -m lna.cli experiments`
+#   pip install matplotlib
+
+# Optional: the test suite
+#   pip install pytest
+
+# Optional: only needed if you switch to a real LLM backend.
+#   pip install anthropic     # --backend anthropic
+#   pip install openai        # --backend openai
