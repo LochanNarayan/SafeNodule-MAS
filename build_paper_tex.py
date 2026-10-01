@@ -324,6 +324,11 @@ REFS = [
   "Wang, C., \\& Ge, R. (2025). LungNoduleAgent: A collaborative multi-agent "
   "system for precision diagnosis of lung nodules. \\textit{arXiv preprint} "
   "arXiv:2511.21042."),
+ ("luccioni2024power", "Luccioni et~al.(2024)",
+  "Luccioni, A. S., Jernite, Y., \\& Strubell, E. (2024). Power hungry "
+  "processing: Watts driving the cost of AI deployment? In "
+  "\\textit{Proceedings of the 2024 ACM Conference on Fairness, "
+  "Accountability, and Transparency}."),
  ("strubell2019energy", "Strubell et~al.(2019)",
   "Strubell, E., Ganesh, A., \\& McCallum, A. (2019). Energy and policy "
   "considerations for deep learning in NLP. In \\textit{Proceedings of the "
@@ -536,25 +541,25 @@ Lochan Narayan K\textsuperscript{1}\quad Manikandan R\textsuperscript{1,*}\par}
         "escalation to Lung RADS categories, temperature scaling fitted by "
         "likelihood on a held out split, and a margin based abstention gate. "
         "The system is evaluated on a reproducible synthetic harness under "
-        f"five stress regimes using {n} cases per seed across {len(seeds)} "
+        f"five stress regimes, {n} cases per seed across {len(seeds)} "
         "seeds, and reporting accuracy, macro F1, coverage, false negative "
         "rate, calibration error, verifier precision and recall, and mean "
         "model calls per case, each with 95% confidence intervals and paired "
         "bootstrap significance tests. The specialist board raises accuracy "
         "in four of five regimes, though under a benign heavy prior a single "
-        "unbiased agent performs better, a finding the framework reports "
-        "openly. Adaptive routing cuts model calls per case by two to four "
-        "percent across regimes, a direct proxy for computational and energy "
-        "cost, with the saving significant in every regime. The verifier "
-        "flags every fabricated citation with high precision, and fitted "
-        "calibration corrects most distribution shift error without "
+        "unbiased agent performs better, a finding the framework reports. "
+        "Adaptive routing cuts model calls per case by two to four "
+        "percent, and the text volume those calls carry by up to seven "
+        "percent, a direct proxy for inference energy and price. The "
+        "verifier flags every fabricated citation with high precision, and "
+        "fitted calibration corrects most distribution shift error without "
         "disturbing already calibrated cases. The abstention gate helps only "
         "where confidence is informative, motivating a structural safeguard "
         "for the remaining cases. SafeNodule-MAS also advances sustainable "
         "healthcare computing by reducing computational redundancy through "
         "adaptive, multiagent orchestration. Overall, this work offers a "
         "reproducible blueprint in which safety, cost, and efficiency are "
-        "measured properties of a multiagent diagnostic system rather than "
+        "measured properties of a multiagent diagnostic system, not "
         "assumed ones.") + r"\par}")
     T.append(r"\end{adjustwidth}")
     T.append(r"\vspace{8pt}")
@@ -1498,6 +1503,41 @@ Lochan Narayan K\textsuperscript{1}\quad Manikandan R\textsuperscript{1,*}\par}
         "the two policies."))
     T.append(figure("cost_routing.png",
         "Mean language-model calls per case by routing policy.", "fig:cost"))
+
+    rows = []
+    for r in rr:
+        m = full(p, r)
+        nr = p["regimes"][r]["ablation"].get("- router", {}).get("mean", {})
+        tok_a = m.get("mean_total_tokens", float("nan"))
+        tok_b = nr.get("mean_total_tokens", float("nan"))
+        call_a = m.get("mean_llm_calls", float("nan"))
+        call_b = nr.get("mean_llm_calls", float("nan"))
+        rows.append([r, f(tok_b, 0), f(tok_a, 0),
+                     f"{100.0 * (tok_b - tok_a) / tok_b:.1f}\\%",
+                     f"{100.0 * (call_b - call_a) / call_b:.1f}\\%"])
+    T.append(tex_table(
+        ["Regime", "tokens: always board", "tokens: adaptive",
+         "tokens saved", "calls saved"], rows,
+        "Prompt and response volume per case by routing policy.", "tab:tokens"))
+    T.append(par(
+        "Call count is a coarse unit: the calls the router removes are the "
+        "expensive ones. Table~\\ref{tab:tokens} meters the actual prompt and "
+        "response volume per case, counted by the same instrumented backend "
+        "and converted at four characters per token. Because a board call "
+        "carries a role-specific knowledge excerpt and the full report while a "
+        "triage call carries neither, the proportional saving in tokens "
+        "exceeds the saving in calls in every regime, by a factor of between "
+        "1.5 and 1.7. This matters for the sustainability claim: inference "
+        "energy and monetary cost both scale with the volume of text a served "
+        "model processes rather than with the number of requests "
+        "\\citep{luccioni2024power,strubell2019energy}, so it is the token "
+        "reduction, not the call reduction, that transfers to a deployment. "
+        "The orchestration itself is negligible against that: the full "
+        "pipeline, excluding model inference, runs in approximately seven "
+        "milliseconds per case on a single commodity CPU core, against the "
+        "hundreds of milliseconds a single served-model call typically costs, "
+        "so the coordination the architecture adds is not a latency "
+        "bottleneck."))
 
     T.append(r"\subsection{Significance summary}")
     T.append(par(

@@ -51,6 +51,8 @@ class Metrics:
     mean_hard_flags: float
     # cost
     mean_llm_calls: float
+    mean_prompt_tokens: float
+    mean_total_tokens: float
     frac_routed_easy: float
     under_triage_rate: float
 
@@ -198,6 +200,8 @@ def compute_metrics(results: List[PipelineResult]) -> Metrics:
         verifier_precision=v_prec, verifier_recall=v_rec,
         mean_hard_flags=statistics.fmean(r.n_hard_flags for r in results) if n else 0.0,
         mean_llm_calls=statistics.fmean(r.n_llm_calls for r in results) if n else 0.0,
+        mean_prompt_tokens=statistics.fmean(r.n_prompt_tokens for r in results) if n else 0.0,
+        mean_total_tokens=statistics.fmean(r.n_total_tokens for r in results) if n else 0.0,
         frac_routed_easy=sum(1 for r in results if r.routing == "easy") / n if n else 0.0,
         under_triage_rate=sum(r.under_triaged for r in results) / n if n else 0.0,
     )
@@ -222,7 +226,8 @@ class Aggregate:
         return " ".join(f"{k}={self.mean[k]:.3f}±{self.std[k]:.3f}"
                         for k in ("accuracy_all", "macro_f1", "coverage",
                                   "false_negative_rate", "aurc", "ece",
-                                  "mean_llm_calls"))
+                                  "mean_llm_calls", "mean_prompt_tokens",
+                                  "mean_total_tokens"))
 
 
 def _split_fit_eval(agent: LungNoduleAgent, cases: List[Case],

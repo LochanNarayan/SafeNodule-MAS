@@ -45,6 +45,8 @@ class PipelineResult:
     # ---- NEW: measurements for the safety / cost / calibration study ----
     raw_probs: Dict[str, float] = field(default_factory=dict)
     n_llm_calls: int = 0
+    n_prompt_tokens: float = 0.0
+    n_total_tokens: float = 0.0
     llm_call_breakdown: Dict[str, int] = field(default_factory=dict)
     n_hard_flags: int = 0
     n_soft_flags: int = 0
@@ -112,6 +114,8 @@ class LungNoduleAgent:
             evidence_trace=outcome.evidence_trace,
             raw_probs=outcome.raw_probs,
             n_llm_calls=self.backend.total,
+            n_prompt_tokens=self.backend.prompt_tokens,
+            n_total_tokens=self.backend.total_tokens,
             llm_call_breakdown=self.backend.snapshot(),
             n_hard_flags=outcome.n_hard_flags,
             n_soft_flags=outcome.n_soft_flags,

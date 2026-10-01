@@ -36,6 +36,8 @@
           "verifier_recall": 1.0,
           "mean_hard_flags": 0.6861111111111111,
           "mean_llm_calls": 10.841666666666667,
+          "mean_prompt_tokens": 1618.3673611111112,
+          "mean_total_tokens": 2233.764583333333,
           "frac_routed_easy": 0.1,
           "under_triage_rate": 0.01388888888888889
         },
@@ -62,6 +64,8 @@
           "verifier_recall": 0.0,
           "mean_hard_flags": 0.06614378277661477,
           "mean_llm_calls": 0.27067302948186195,
+          "mean_prompt_tokens": 65.89948419574058,
+          "mean_total_tokens": 85.09908952566998,
           "frac_routed_easy": 0.041573970964154904,
           "under_triage_rate": 0.01075828707279838
         },
@@ -89,6 +93,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6,
             "mean_llm_calls": 10.844444444444445,
+            "mean_prompt_tokens": 1622.6277777777777,
+            "mean_total_tokens": 2235.3888888888887,
             "frac_routed_easy": 0.1111111111111111,
             "under_triage_rate": 0.022222222222222223
           },
@@ -115,6 +121,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.7333333333333333,
             "mean_llm_calls": 10.911111111111111,
+            "mean_prompt_tokens": 1627.6888888888889,
+            "mean_total_tokens": 2245.911111111111,
             "frac_routed_easy": 0.1111111111111111,
             "under_triage_rate": 0.0
           },
@@ -141,6 +149,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.7777777777777778,
             "mean_llm_calls": 11.266666666666667,
+            "mean_prompt_tokens": 1704.3222222222223,
+            "mean_total_tokens": 2347.8722222222223,
             "frac_routed_easy": 0.0,
             "under_triage_rate": 0.0
           },
@@ -167,6 +177,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6222222222222222,
             "mean_llm_calls": 10.4,
+            "mean_prompt_tokens": 1497.411111111111,
+            "mean_total_tokens": 2080.8777777777777,
             "frac_routed_easy": 0.13333333333333333,
             "under_triage_rate": 0.022222222222222223
           },
@@ -193,6 +205,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.7777777777777778,
             "mean_llm_calls": 11.044444444444444,
+            "mean_prompt_tokens": 1683.9833333333333,
+            "mean_total_tokens": 2318.788888888889,
             "frac_routed_easy": 0.13333333333333333,
             "under_triage_rate": 0.022222222222222223
           },
@@ -219,6 +233,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6666666666666666,
             "mean_llm_calls": 11.022222222222222,
+            "mean_prompt_tokens": 1669.8555555555556,
+            "mean_total_tokens": 2300.8444444444444,
             "frac_routed_easy": 0.08888888888888889,
             "under_triage_rate": 0.0
           },
@@ -245,6 +261,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6888888888888889,
             "mean_llm_calls": 10.755555555555556,
+            "mean_prompt_tokens": 1593.8055555555557,
+            "mean_total_tokens": 2198.3611111111113,
             "frac_routed_easy": 0.08888888888888889,
             "under_triage_rate": 0.022222222222222223
           },
@@ -271,6 +289,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6222222222222222,
             "mean_llm_calls": 10.488888888888889,
+            "mean_prompt_tokens": 1547.2444444444445,
+            "mean_total_tokens": 2142.072222222222,
             "frac_routed_easy": 0.13333333333333333,
             "under_triage_rate": 0.022222222222222223
           }
@@ -301,6 +321,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6861111111111111,
             "mean_llm_calls": 10.841666666666667,
+            "mean_prompt_tokens": 1618.3673611111112,
+            "mean_total_tokens": 2233.764583333333,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.01388888888888889
           },
@@ -327,6 +349,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.06614378277661477,
             "mean_llm_calls": 0.27067302948186195,
+            "mean_prompt_tokens": 65.89948419574058,
+            "mean_total_tokens": 85.09908952566998,
             "frac_routed_easy": 0.041573970964154904,
             "under_triage_rate": 0.01075828707279838
           }
@@ -355,6 +379,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.0,
             "mean_llm_calls": 10.841666666666667,
+            "mean_prompt_tokens": 1618.3673611111112,
+            "mean_total_tokens": 2233.764583333333,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.01388888888888889
           },
@@ -381,6 +407,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.0,
             "mean_llm_calls": 0.27067302948186195,
+            "mean_prompt_tokens": 65.89948419574058,
+            "mean_total_tokens": 85.09908952566998,
             "frac_routed_easy": 0.041573970964154904,
             "under_triage_rate": 0.01075828707279838
           }
@@ -409,6 +437,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6861111111111111,
             "mean_llm_calls": 8.633333333333333,
+            "mean_prompt_tokens": 1523.1472222222221,
+            "mean_total_tokens": 1946.1958333333334,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.01388888888888889
           },
@@ -435,6 +465,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.06614378277661477,
             "mean_llm_calls": 0.24190601174530246,
+            "mean_prompt_tokens": 64.34239867284488,
+            "mean_total_tokens": 80.7272590933528,
             "frac_routed_easy": 0.041573970964154904,
             "under_triage_rate": 0.01075828707279838
           }
@@ -463,6 +495,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6861111111111111,
             "mean_llm_calls": 10.841666666666667,
+            "mean_prompt_tokens": 1618.3673611111112,
+            "mean_total_tokens": 2233.764583333333,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.01388888888888889
           },
@@ -489,6 +523,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.06614378277661477,
             "mean_llm_calls": 0.27067302948186195,
+            "mean_prompt_tokens": 65.89948419574058,
+            "mean_total_tokens": 85.09908952566998,
             "frac_routed_easy": 0.041573970964154904,
             "under_triage_rate": 0.01075828707279838
           }
@@ -517,6 +553,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6861111111111111,
             "mean_llm_calls": 10.841666666666667,
+            "mean_prompt_tokens": 1618.3673611111112,
+            "mean_total_tokens": 2233.764583333333,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.01388888888888889
           },
@@ -543,6 +581,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.06614378277661477,
             "mean_llm_calls": 0.27067302948186195,
+            "mean_prompt_tokens": 65.89948419574058,
+            "mean_total_tokens": 85.09908952566998,
             "frac_routed_easy": 0.041573970964154904,
             "under_triage_rate": 0.01075828707279838
           }
@@ -571,6 +611,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6861111111111111,
             "mean_llm_calls": 10.841666666666667,
+            "mean_prompt_tokens": 1618.3673611111112,
+            "mean_total_tokens": 2233.764583333333,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.01388888888888889
           },
@@ -597,6 +639,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.06614378277661477,
             "mean_llm_calls": 0.27067302948186195,
+            "mean_prompt_tokens": 65.89948419574058,
+            "mean_total_tokens": 85.09908952566998,
             "frac_routed_easy": 0.041573970964154904,
             "under_triage_rate": 0.01075828707279838
           }
@@ -625,6 +669,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.7138888888888889,
             "mean_llm_calls": 11.155555555555555,
+            "mean_prompt_tokens": 1708.4590277777777,
+            "mean_total_tokens": 2346.93125,
             "frac_routed_easy": 0.0,
             "under_triage_rate": 0.0
           },
@@ -651,6 +697,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.0688866487090958,
             "mean_llm_calls": 0.18392161508052052,
+            "mean_prompt_tokens": 47.94853673933829,
+            "mean_total_tokens": 61.96584881425273,
             "frac_routed_easy": 0.0,
             "under_triage_rate": 0.0
           }
@@ -679,6 +727,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.13055555555555556,
             "mean_llm_calls": 7.1,
+            "mean_prompt_tokens": 587.0055555555556,
+            "mean_total_tokens": 930.4513888888889,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.01388888888888889
           },
@@ -705,6 +755,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.04770990010366019,
             "mean_llm_calls": 0.08164965809277268,
+            "mean_prompt_tokens": 3.381041688775003,
+            "mean_total_tokens": 4.7707989647799565,
             "frac_routed_easy": 0.041573970964154904,
             "under_triage_rate": 0.01075828707279838
           }
@@ -733,6 +785,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5694444444444444,
             "mean_llm_calls": 9.8,
+            "mean_prompt_tokens": 1368.9625,
+            "mean_total_tokens": 1908.1381944444445,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.01388888888888889
           },
@@ -759,6 +813,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.06376800157360554,
             "mean_llm_calls": 0.1972026594366543,
+            "mean_prompt_tokens": 39.835324968612184,
+            "mean_total_tokens": 51.16997692856231,
             "frac_routed_easy": 0.041573970964154904,
             "under_triage_rate": 0.01075828707279838
           }
@@ -816,6 +872,8 @@
           "verifier_recall": 1.0,
           "mean_hard_flags": 0.5277777777777778,
           "mean_llm_calls": 10.844444444444445,
+          "mean_prompt_tokens": 1587.7923611111112,
+          "mean_total_tokens": 2209.254861111111,
           "frac_routed_easy": 0.09722222222222222,
           "under_triage_rate": 0.044444444444444446
         },
@@ -842,6 +900,8 @@
           "verifier_recall": 0.0,
           "mean_hard_flags": 0.034694433324435545,
           "mean_llm_calls": 0.3901566636906542,
+          "mean_prompt_tokens": 83.15063027020642,
+          "mean_total_tokens": 109.8100166139053,
           "frac_routed_easy": 0.024689428936987747,
           "under_triage_rate": 0.02721655269759087
         },
@@ -869,6 +929,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5777777777777777,
             "mean_llm_calls": 11.266666666666667,
+            "mean_prompt_tokens": 1706.1222222222223,
+            "mean_total_tokens": 2356.338888888889,
             "frac_routed_easy": 0.06666666666666667,
             "under_triage_rate": 0.0
           },
@@ -895,6 +957,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5333333333333333,
             "mean_llm_calls": 10.488888888888889,
+            "mean_prompt_tokens": 1502.5388888888888,
+            "mean_total_tokens": 2094.2555555555555,
             "frac_routed_easy": 0.08888888888888889,
             "under_triage_rate": 0.022222222222222223
           },
@@ -921,6 +985,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5555555555555556,
             "mean_llm_calls": 11.533333333333333,
+            "mean_prompt_tokens": 1719.7277777777779,
+            "mean_total_tokens": 2389.3611111111113,
             "frac_routed_easy": 0.06666666666666667,
             "under_triage_rate": 0.06666666666666667
           },
@@ -947,6 +1013,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5333333333333333,
             "mean_llm_calls": 10.555555555555555,
+            "mean_prompt_tokens": 1534.1777777777777,
+            "mean_total_tokens": 2138.3888888888887,
             "frac_routed_easy": 0.13333333333333333,
             "under_triage_rate": 0.06666666666666667
           },
@@ -973,6 +1041,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5111111111111111,
             "mean_llm_calls": 10.688888888888888,
+            "mean_prompt_tokens": 1561.4333333333334,
+            "mean_total_tokens": 2177.2555555555555,
             "frac_routed_easy": 0.1111111111111111,
             "under_triage_rate": 0.022222222222222223
           },
@@ -999,6 +1069,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.4888888888888889,
             "mean_llm_calls": 10.6,
+            "mean_prompt_tokens": 1528.611111111111,
+            "mean_total_tokens": 2122.311111111111,
             "frac_routed_easy": 0.08888888888888889,
             "under_triage_rate": 0.044444444444444446
           },
@@ -1025,6 +1097,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.4666666666666667,
             "mean_llm_calls": 11.177777777777777,
+            "mean_prompt_tokens": 1642.7944444444445,
+            "mean_total_tokens": 2285.5666666666666,
             "frac_routed_easy": 0.08888888888888889,
             "under_triage_rate": 0.044444444444444446
           },
@@ -1051,6 +1125,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5555555555555556,
             "mean_llm_calls": 10.444444444444445,
+            "mean_prompt_tokens": 1506.9333333333334,
+            "mean_total_tokens": 2110.561111111111,
             "frac_routed_easy": 0.13333333333333333,
             "under_triage_rate": 0.08888888888888889
           }
@@ -1081,6 +1157,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5277777777777778,
             "mean_llm_calls": 10.844444444444445,
+            "mean_prompt_tokens": 1587.7923611111112,
+            "mean_total_tokens": 2209.254861111111,
             "frac_routed_easy": 0.09722222222222222,
             "under_triage_rate": 0.044444444444444446
           },
@@ -1107,6 +1185,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.034694433324435545,
             "mean_llm_calls": 0.3901566636906542,
+            "mean_prompt_tokens": 83.15063027020642,
+            "mean_total_tokens": 109.8100166139053,
             "frac_routed_easy": 0.024689428936987747,
             "under_triage_rate": 0.02721655269759087
           }
@@ -1135,6 +1215,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.0,
             "mean_llm_calls": 10.844444444444445,
+            "mean_prompt_tokens": 1587.7923611111112,
+            "mean_total_tokens": 2209.254861111111,
             "frac_routed_easy": 0.09722222222222222,
             "under_triage_rate": 0.044444444444444446
           },
@@ -1161,6 +1243,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.0,
             "mean_llm_calls": 0.3901566636906542,
+            "mean_prompt_tokens": 83.15063027020642,
+            "mean_total_tokens": 109.8100166139053,
             "frac_routed_easy": 0.024689428936987747,
             "under_triage_rate": 0.02721655269759087
           }
@@ -1189,6 +1273,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5277777777777778,
             "mean_llm_calls": 8.655555555555555,
+            "mean_prompt_tokens": 1493.6326388888888,
+            "mean_total_tokens": 1924.7625,
             "frac_routed_easy": 0.09722222222222222,
             "under_triage_rate": 0.044444444444444446
           },
@@ -1215,6 +1301,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.034694433324435545,
             "mean_llm_calls": 0.34047896546765694,
+            "mean_prompt_tokens": 80.76369888376901,
+            "mean_total_tokens": 102.87711782280729,
             "frac_routed_easy": 0.024689428936987747,
             "under_triage_rate": 0.02721655269759087
           }
@@ -1243,6 +1331,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5277777777777778,
             "mean_llm_calls": 10.844444444444445,
+            "mean_prompt_tokens": 1587.7923611111112,
+            "mean_total_tokens": 2209.254861111111,
             "frac_routed_easy": 0.09722222222222222,
             "under_triage_rate": 0.044444444444444446
           },
@@ -1269,6 +1359,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.034694433324435545,
             "mean_llm_calls": 0.3901566636906542,
+            "mean_prompt_tokens": 83.15063027020642,
+            "mean_total_tokens": 109.8100166139053,
             "frac_routed_easy": 0.024689428936987747,
             "under_triage_rate": 0.02721655269759087
           }
@@ -1297,6 +1389,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5277777777777778,
             "mean_llm_calls": 10.844444444444445,
+            "mean_prompt_tokens": 1587.7923611111112,
+            "mean_total_tokens": 2209.254861111111,
             "frac_routed_easy": 0.09722222222222222,
             "under_triage_rate": 0.044444444444444446
           },
@@ -1323,6 +1417,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.034694433324435545,
             "mean_llm_calls": 0.3901566636906542,
+            "mean_prompt_tokens": 83.15063027020642,
+            "mean_total_tokens": 109.8100166139053,
             "frac_routed_easy": 0.024689428936987747,
             "under_triage_rate": 0.02721655269759087
           }
@@ -1351,6 +1447,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5277777777777778,
             "mean_llm_calls": 10.844444444444445,
+            "mean_prompt_tokens": 1587.7923611111112,
+            "mean_total_tokens": 2209.254861111111,
             "frac_routed_easy": 0.09722222222222222,
             "under_triage_rate": 0.044444444444444446
           },
@@ -1377,6 +1475,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.034694433324435545,
             "mean_llm_calls": 0.3901566636906542,
+            "mean_prompt_tokens": 83.15063027020642,
+            "mean_total_tokens": 109.8100166139053,
             "frac_routed_easy": 0.024689428936987747,
             "under_triage_rate": 0.02721655269759087
           }
@@ -1405,6 +1505,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5611111111111111,
             "mean_llm_calls": 11.191666666666666,
+            "mean_prompt_tokens": 1683.9770833333332,
+            "mean_total_tokens": 2333.0868055555557,
             "frac_routed_easy": 0.0,
             "under_triage_rate": 0.0
           },
@@ -1431,6 +1533,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.05181877251716009,
             "mean_llm_calls": 0.3456854882550368,
+            "mean_prompt_tokens": 72.81711757135452,
+            "mean_total_tokens": 96.72349933491775,
             "frac_routed_easy": 0.0,
             "under_triage_rate": 0.0
           }
@@ -1459,6 +1563,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.11388888888888889,
             "mean_llm_calls": 7.191666666666666,
+            "mean_prompt_tokens": 587.4159722222222,
+            "mean_total_tokens": 932.2555555555556,
             "frac_routed_easy": 0.09722222222222222,
             "under_triage_rate": 0.044444444444444446
           },
@@ -1485,6 +1591,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.0502309481111809,
             "mean_llm_calls": 0.11273124382057241,
+            "mean_prompt_tokens": 5.080992507104594,
+            "mean_total_tokens": 6.86733748071798,
             "frac_routed_easy": 0.024689428936987747,
             "under_triage_rate": 0.02721655269759087
           }
@@ -1513,6 +1621,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.43333333333333335,
             "mean_llm_calls": 9.9,
+            "mean_prompt_tokens": 1362.9770833333332,
+            "mean_total_tokens": 1912.33125,
             "frac_routed_easy": 0.09722222222222222,
             "under_triage_rate": 0.044444444444444446
           },
@@ -1539,6 +1649,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.02939723678960655,
             "mean_llm_calls": 0.1732050807568877,
+            "mean_prompt_tokens": 27.21252710540113,
+            "mean_total_tokens": 33.27983866479494,
             "frac_routed_easy": 0.024689428936987747,
             "under_triage_rate": 0.02721655269759087
           }
@@ -1596,6 +1708,8 @@
           "verifier_recall": 1.0,
           "mean_hard_flags": 0.9638888888888889,
           "mean_llm_calls": 12.844444444444445,
+          "mean_prompt_tokens": 2098.788888888889,
+          "mean_total_tokens": 2847.973611111111,
           "frac_routed_easy": 0.058333333333333334,
           "under_triage_rate": 0.022222222222222223
         },
@@ -1622,6 +1736,8 @@
           "verifier_recall": 0.0,
           "mean_hard_flags": 0.09554101956622132,
           "mean_llm_calls": 0.38650060290946836,
+          "mean_prompt_tokens": 93.60803522806819,
+          "mean_total_tokens": 124.27287248024304,
           "frac_routed_easy": 0.0496126974985882,
           "under_triage_rate": 0.029397236789606564
         },
@@ -1649,6 +1765,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.9333333333333333,
             "mean_llm_calls": 13.11111111111111,
+            "mean_prompt_tokens": 2196.5944444444444,
+            "mean_total_tokens": 2972.05,
             "frac_routed_easy": 0.0,
             "under_triage_rate": 0.0
           },
@@ -1675,6 +1793,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.7777777777777778,
             "mean_llm_calls": 12.644444444444444,
+            "mean_prompt_tokens": 2040.2444444444445,
+            "mean_total_tokens": 2774.95,
             "frac_routed_easy": 0.08888888888888889,
             "under_triage_rate": 0.0
           },
@@ -1701,6 +1821,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 1.0,
             "mean_llm_calls": 13.222222222222221,
+            "mean_prompt_tokens": 2173.3555555555554,
+            "mean_total_tokens": 2957.722222222222,
             "frac_routed_easy": 0.06666666666666667,
             "under_triage_rate": 0.022222222222222223
           },
@@ -1727,6 +1849,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.9333333333333333,
             "mean_llm_calls": 13.133333333333333,
+            "mean_prompt_tokens": 2149.25,
+            "mean_total_tokens": 2917.0222222222224,
             "frac_routed_easy": 0.022222222222222223,
             "under_triage_rate": 0.0
           },
@@ -1753,6 +1877,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 1.0666666666666667,
             "mean_llm_calls": 12.88888888888889,
+            "mean_prompt_tokens": 2106.45,
+            "mean_total_tokens": 2858.161111111111,
             "frac_routed_easy": 0.044444444444444446,
             "under_triage_rate": 0.022222222222222223
           },
@@ -1779,6 +1905,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.9111111111111111,
             "mean_llm_calls": 12.222222222222221,
+            "mean_prompt_tokens": 1935.8777777777777,
+            "mean_total_tokens": 2627.3722222222223,
             "frac_routed_easy": 0.15555555555555556,
             "under_triage_rate": 0.08888888888888889
           },
@@ -1805,6 +1933,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 1.1111111111111112,
             "mean_llm_calls": 13.244444444444444,
+            "mean_prompt_tokens": 2200.0055555555555,
+            "mean_total_tokens": 2974.366666666667,
             "frac_routed_easy": 0.0,
             "under_triage_rate": 0.0
           },
@@ -1831,6 +1961,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.9777777777777777,
             "mean_llm_calls": 12.28888888888889,
+            "mean_prompt_tokens": 1988.5333333333333,
+            "mean_total_tokens": 2702.1444444444446,
             "frac_routed_easy": 0.08888888888888889,
             "under_triage_rate": 0.044444444444444446
           }
@@ -1861,6 +1993,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.9638888888888889,
             "mean_llm_calls": 12.844444444444445,
+            "mean_prompt_tokens": 2098.788888888889,
+            "mean_total_tokens": 2847.973611111111,
             "frac_routed_easy": 0.058333333333333334,
             "under_triage_rate": 0.022222222222222223
           },
@@ -1887,6 +2021,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.09554101956622132,
             "mean_llm_calls": 0.38650060290946836,
+            "mean_prompt_tokens": 93.60803522806819,
+            "mean_total_tokens": 124.27287248024304,
             "frac_routed_easy": 0.0496126974985882,
             "under_triage_rate": 0.029397236789606564
           }
@@ -1915,6 +2051,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.0,
             "mean_llm_calls": 12.844444444444445,
+            "mean_prompt_tokens": 2098.788888888889,
+            "mean_total_tokens": 2847.973611111111,
             "frac_routed_easy": 0.058333333333333334,
             "under_triage_rate": 0.022222222222222223
           },
@@ -1941,6 +2079,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.0,
             "mean_llm_calls": 0.38650060290946836,
+            "mean_prompt_tokens": 93.60803522806819,
+            "mean_total_tokens": 124.27287248024304,
             "frac_routed_easy": 0.0496126974985882,
             "under_triage_rate": 0.029397236789606564
           }
@@ -1969,6 +2109,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.9638888888888889,
             "mean_llm_calls": 10.26388888888889,
+            "mean_prompt_tokens": 1986.6993055555554,
+            "mean_total_tokens": 2511.7,
             "frac_routed_easy": 0.058333333333333334,
             "under_triage_rate": 0.022222222222222223
           },
@@ -1995,6 +2137,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.09554101956622132,
             "mean_llm_calls": 0.3400140701518608,
+            "mean_prompt_tokens": 91.33745966945649,
+            "mean_total_tokens": 117.23965882033534,
             "frac_routed_easy": 0.0496126974985882,
             "under_triage_rate": 0.029397236789606564
           }
@@ -2023,6 +2167,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.9638888888888889,
             "mean_llm_calls": 12.844444444444445,
+            "mean_prompt_tokens": 2098.788888888889,
+            "mean_total_tokens": 2847.973611111111,
             "frac_routed_easy": 0.058333333333333334,
             "under_triage_rate": 0.022222222222222223
           },
@@ -2049,6 +2195,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.09554101956622132,
             "mean_llm_calls": 0.38650060290946836,
+            "mean_prompt_tokens": 93.60803522806819,
+            "mean_total_tokens": 124.27287248024304,
             "frac_routed_easy": 0.0496126974985882,
             "under_triage_rate": 0.029397236789606564
           }
@@ -2077,6 +2225,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.9638888888888889,
             "mean_llm_calls": 12.844444444444445,
+            "mean_prompt_tokens": 2098.788888888889,
+            "mean_total_tokens": 2847.973611111111,
             "frac_routed_easy": 0.058333333333333334,
             "under_triage_rate": 0.022222222222222223
           },
@@ -2103,6 +2253,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.09554101956622132,
             "mean_llm_calls": 0.38650060290946836,
+            "mean_prompt_tokens": 93.60803522806819,
+            "mean_total_tokens": 124.27287248024304,
             "frac_routed_easy": 0.0496126974985882,
             "under_triage_rate": 0.029397236789606564
           }
@@ -2131,6 +2283,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.9638888888888889,
             "mean_llm_calls": 12.844444444444445,
+            "mean_prompt_tokens": 2098.788888888889,
+            "mean_total_tokens": 2847.973611111111,
             "frac_routed_easy": 0.058333333333333334,
             "under_triage_rate": 0.022222222222222223
           },
@@ -2157,6 +2311,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.09554101956622132,
             "mean_llm_calls": 0.38650060290946836,
+            "mean_prompt_tokens": 93.60803522806819,
+            "mean_total_tokens": 124.27287248024304,
             "frac_routed_easy": 0.0496126974985882,
             "under_triage_rate": 0.029397236789606564
           }
@@ -2185,6 +2341,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 1.011111111111111,
             "mean_llm_calls": 13.158333333333333,
+            "mean_prompt_tokens": 2182.39375,
+            "mean_total_tokens": 2955.4618055555557,
             "frac_routed_easy": 0.0,
             "under_triage_rate": 0.0
           },
@@ -2211,6 +2369,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.08164965809277258,
             "mean_llm_calls": 0.27158371830686523,
+            "mean_prompt_tokens": 55.32881155090018,
+            "mean_total_tokens": 77.8679827326819,
             "frac_routed_easy": 0.0,
             "under_triage_rate": 0.0
           }
@@ -2239,6 +2399,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.13055555555555556,
             "mean_llm_calls": 7.116666666666667,
+            "mean_prompt_tokens": 587.7923611111111,
+            "mean_total_tokens": 927.0548611111111,
             "frac_routed_easy": 0.058333333333333334,
             "under_triage_rate": 0.022222222222222223
           },
@@ -2265,6 +2427,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.0502309481111809,
             "mean_llm_calls": 0.072648315725678,
+            "mean_prompt_tokens": 2.6054962346658606,
+            "mean_total_tokens": 3.4226600972348393,
             "frac_routed_easy": 0.0496126974985882,
             "under_triage_rate": 0.029397236789606564
           }
@@ -2293,6 +2457,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6,
             "mean_llm_calls": 9.941666666666666,
+            "mean_prompt_tokens": 1404.2340277777778,
+            "mean_total_tokens": 1940.7944444444445,
             "frac_routed_easy": 0.058333333333333334,
             "under_triage_rate": 0.022222222222222223
           },
@@ -2319,6 +2485,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.06849348892187751,
             "mean_llm_calls": 0.16137430609197578,
+            "mean_prompt_tokens": 42.06737609433457,
+            "mean_total_tokens": 54.209315688425775,
             "frac_routed_easy": 0.0496126974985882,
             "under_triage_rate": 0.029397236789606564
           }
@@ -2376,6 +2544,8 @@
           "verifier_recall": 1.0,
           "mean_hard_flags": 0.8888888888888888,
           "mean_llm_calls": 12.041666666666666,
+          "mean_prompt_tokens": 1897.242361111111,
+          "mean_total_tokens": 2585.407638888889,
           "frac_routed_easy": 0.1111111111111111,
           "under_triage_rate": 0.022222222222222223
         },
@@ -2402,6 +2572,8 @@
           "verifier_recall": 0.0,
           "mean_hard_flags": 0.11967032904743344,
           "mean_llm_calls": 0.6123661355354469,
+          "mean_prompt_tokens": 158.54343260654443,
+          "mean_total_tokens": 203.5311489745803,
           "frac_routed_easy": 0.05555555555555556,
           "under_triage_rate": 0.019245008972987525
         },
@@ -2429,6 +2601,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.8888888888888888,
             "mean_llm_calls": 12.0,
+            "mean_prompt_tokens": 1897.7222222222222,
+            "mean_total_tokens": 2585.438888888889,
             "frac_routed_easy": 0.13333333333333333,
             "under_triage_rate": 0.022222222222222223
           },
@@ -2455,6 +2629,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.8,
             "mean_llm_calls": 12.177777777777777,
+            "mean_prompt_tokens": 1930.4277777777777,
+            "mean_total_tokens": 2628.1944444444443,
             "frac_routed_easy": 0.13333333333333333,
             "under_triage_rate": 0.044444444444444446
           },
@@ -2481,6 +2657,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.7555555555555555,
             "mean_llm_calls": 11.822222222222223,
+            "mean_prompt_tokens": 1803.6944444444443,
+            "mean_total_tokens": 2465.5055555555555,
             "frac_routed_easy": 0.13333333333333333,
             "under_triage_rate": 0.0
           },
@@ -2507,6 +2685,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.9111111111111111,
             "mean_llm_calls": 11.933333333333334,
+            "mean_prompt_tokens": 1878.3111111111111,
+            "mean_total_tokens": 2561.5055555555555,
             "frac_routed_easy": 0.06666666666666667,
             "under_triage_rate": 0.044444444444444446
           },
@@ -2533,6 +2713,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.8888888888888888,
             "mean_llm_calls": 11.511111111111111,
+            "mean_prompt_tokens": 1757.0,
+            "mean_total_tokens": 2403.6222222222223,
             "frac_routed_easy": 0.13333333333333333,
             "under_triage_rate": 0.044444444444444446
           },
@@ -2559,6 +2741,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.8222222222222222,
             "mean_llm_calls": 11.022222222222222,
+            "mean_prompt_tokens": 1650.9388888888889,
+            "mean_total_tokens": 2270.288888888889,
             "frac_routed_easy": 0.2,
             "under_triage_rate": 0.022222222222222223
           },
@@ -2585,6 +2769,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 1.1777777777777778,
             "mean_llm_calls": 12.866666666666667,
+            "mean_prompt_tokens": 2096.277777777778,
+            "mean_total_tokens": 2842.288888888889,
             "frac_routed_easy": 0.08888888888888889,
             "under_triage_rate": 0.0
           },
@@ -2611,6 +2797,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.8666666666666667,
             "mean_llm_calls": 13.0,
+            "mean_prompt_tokens": 2163.5666666666666,
+            "mean_total_tokens": 2926.4166666666665,
             "frac_routed_easy": 0.0,
             "under_triage_rate": 0.0
           }
@@ -2641,6 +2829,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.8888888888888888,
             "mean_llm_calls": 12.041666666666666,
+            "mean_prompt_tokens": 1897.242361111111,
+            "mean_total_tokens": 2585.407638888889,
             "frac_routed_easy": 0.1111111111111111,
             "under_triage_rate": 0.022222222222222223
           },
@@ -2667,6 +2857,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.11967032904743344,
             "mean_llm_calls": 0.6123661355354469,
+            "mean_prompt_tokens": 158.54343260654443,
+            "mean_total_tokens": 203.5311489745803,
             "frac_routed_easy": 0.05555555555555556,
             "under_triage_rate": 0.019245008972987525
           }
@@ -2695,6 +2887,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.0,
             "mean_llm_calls": 12.041666666666666,
+            "mean_prompt_tokens": 1897.242361111111,
+            "mean_total_tokens": 2585.407638888889,
             "frac_routed_easy": 0.1111111111111111,
             "under_triage_rate": 0.022222222222222223
           },
@@ -2721,6 +2915,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.0,
             "mean_llm_calls": 0.6123661355354469,
+            "mean_prompt_tokens": 158.54343260654443,
+            "mean_total_tokens": 203.5311489745803,
             "frac_routed_easy": 0.05555555555555556,
             "under_triage_rate": 0.019245008972987525
           }
@@ -2749,6 +2945,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.8888888888888888,
             "mean_llm_calls": 9.591666666666667,
+            "mean_prompt_tokens": 1790.2729166666666,
+            "mean_total_tokens": 2264.4694444444444,
             "frac_routed_easy": 0.1111111111111111,
             "under_triage_rate": 0.022222222222222223
           },
@@ -2775,6 +2973,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.11967032904743344,
             "mean_llm_calls": 0.5138738736545104,
+            "mean_prompt_tokens": 154.20469134264195,
+            "mean_total_tokens": 190.57445591803955,
             "frac_routed_easy": 0.05555555555555556,
             "under_triage_rate": 0.019245008972987525
           }
@@ -2803,6 +3003,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.8888888888888888,
             "mean_llm_calls": 12.041666666666666,
+            "mean_prompt_tokens": 1897.242361111111,
+            "mean_total_tokens": 2585.407638888889,
             "frac_routed_easy": 0.1111111111111111,
             "under_triage_rate": 0.022222222222222223
           },
@@ -2829,6 +3031,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.11967032904743344,
             "mean_llm_calls": 0.6123661355354469,
+            "mean_prompt_tokens": 158.54343260654443,
+            "mean_total_tokens": 203.5311489745803,
             "frac_routed_easy": 0.05555555555555556,
             "under_triage_rate": 0.019245008972987525
           }
@@ -2857,6 +3061,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.8888888888888888,
             "mean_llm_calls": 12.041666666666666,
+            "mean_prompt_tokens": 1897.242361111111,
+            "mean_total_tokens": 2585.407638888889,
             "frac_routed_easy": 0.1111111111111111,
             "under_triage_rate": 0.022222222222222223
           },
@@ -2883,6 +3089,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.11967032904743344,
             "mean_llm_calls": 0.6123661355354469,
+            "mean_prompt_tokens": 158.54343260654443,
+            "mean_total_tokens": 203.5311489745803,
             "frac_routed_easy": 0.05555555555555556,
             "under_triage_rate": 0.019245008972987525
           }
@@ -2911,6 +3119,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.8888888888888888,
             "mean_llm_calls": 12.041666666666666,
+            "mean_prompt_tokens": 1897.242361111111,
+            "mean_total_tokens": 2585.407638888889,
             "frac_routed_easy": 0.1111111111111111,
             "under_triage_rate": 0.022222222222222223
           },
@@ -2937,6 +3147,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.11967032904743344,
             "mean_llm_calls": 0.6123661355354469,
+            "mean_prompt_tokens": 158.54343260654443,
+            "mean_total_tokens": 203.5311489745803,
             "frac_routed_easy": 0.05555555555555556,
             "under_triage_rate": 0.019245008972987525
           }
@@ -2965,6 +3177,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.9472222222222222,
             "mean_llm_calls": 12.472222222222221,
+            "mean_prompt_tokens": 2016.982638888889,
+            "mean_total_tokens": 2735.5770833333336,
             "frac_routed_easy": 0.0,
             "under_triage_rate": 0.0
           },
@@ -2991,6 +3205,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.11597014302860059,
             "mean_llm_calls": 0.4804511768466526,
+            "mean_prompt_tokens": 120.65517458056709,
+            "mean_total_tokens": 156.6990925229357,
             "frac_routed_easy": 0.0,
             "under_triage_rate": 0.0
           }
@@ -3019,6 +3235,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.13055555555555556,
             "mean_llm_calls": 7.125,
+            "mean_prompt_tokens": 587.8520833333333,
+            "mean_total_tokens": 927.5479166666667,
             "frac_routed_easy": 0.1111111111111111,
             "under_triage_rate": 0.022222222222222223
           },
@@ -3045,6 +3263,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.03918537772129413,
             "mean_llm_calls": 0.09090593428863093,
+            "mean_prompt_tokens": 3.836139208099715,
+            "mean_total_tokens": 5.360786502478366,
             "frac_routed_easy": 0.05555555555555556,
             "under_triage_rate": 0.019245008972987525
           }
@@ -3073,6 +3293,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5944444444444444,
             "mean_llm_calls": 9.791666666666666,
+            "mean_prompt_tokens": 1358.513888888889,
+            "mean_total_tokens": 1882.5659722222222,
             "frac_routed_easy": 0.1111111111111111,
             "under_triage_rate": 0.022222222222222223
           },
@@ -3099,6 +3321,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.07005289007176939,
             "mean_llm_calls": 0.16478099944404342,
+            "mean_prompt_tokens": 46.622075670381854,
+            "mean_total_tokens": 58.174692712578505,
             "frac_routed_easy": 0.05555555555555556,
             "under_triage_rate": 0.019245008972987525
           }
@@ -3156,6 +3380,8 @@
           "verifier_recall": 1.0,
           "mean_hard_flags": 0.5944444444444444,
           "mean_llm_calls": 11.405555555555555,
+          "mean_prompt_tokens": 1734.8159722222222,
+          "mean_total_tokens": 2401.6847222222223,
           "frac_routed_easy": 0.1,
           "under_triage_rate": 0.08611111111111111
         },
@@ -3182,6 +3408,8 @@
           "verifier_recall": 0.0,
           "mean_hard_flags": 0.07515416254704824,
           "mean_llm_calls": 0.2190749350347819,
+          "mean_prompt_tokens": 43.28764012193768,
+          "mean_total_tokens": 53.85059863529493,
           "frac_routed_easy": 0.03333333333333333,
           "under_triage_rate": 0.01332175423142422
         },
@@ -3209,6 +3437,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.4666666666666667,
             "mean_llm_calls": 11.244444444444444,
+            "mean_prompt_tokens": 1710.4277777777777,
+            "mean_total_tokens": 2364.461111111111,
             "frac_routed_easy": 0.08888888888888889,
             "under_triage_rate": 0.08888888888888889
           },
@@ -3235,6 +3465,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5333333333333333,
             "mean_llm_calls": 11.444444444444445,
+            "mean_prompt_tokens": 1729.9388888888889,
+            "mean_total_tokens": 2394.6222222222223,
             "frac_routed_easy": 0.06666666666666667,
             "under_triage_rate": 0.06666666666666667
           },
@@ -3261,6 +3493,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5333333333333333,
             "mean_llm_calls": 11.088888888888889,
+            "mean_prompt_tokens": 1657.2888888888888,
+            "mean_total_tokens": 2312.4166666666665,
             "frac_routed_easy": 0.08888888888888889,
             "under_triage_rate": 0.08888888888888889
           },
@@ -3287,6 +3521,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6666666666666666,
             "mean_llm_calls": 11.355555555555556,
+            "mean_prompt_tokens": 1753.2888888888888,
+            "mean_total_tokens": 2410.733333333333,
             "frac_routed_easy": 0.06666666666666667,
             "under_triage_rate": 0.06666666666666667
           },
@@ -3313,6 +3549,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6,
             "mean_llm_calls": 11.4,
+            "mean_prompt_tokens": 1741.9555555555555,
+            "mean_total_tokens": 2412.6944444444443,
             "frac_routed_easy": 0.1111111111111111,
             "under_triage_rate": 0.08888888888888889
           },
@@ -3339,6 +3577,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.7111111111111111,
             "mean_llm_calls": 11.311111111111112,
+            "mean_prompt_tokens": 1706.8055555555557,
+            "mean_total_tokens": 2366.3,
             "frac_routed_easy": 0.17777777777777778,
             "under_triage_rate": 0.1111111111111111
           },
@@ -3365,6 +3605,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6444444444444445,
             "mean_llm_calls": 11.88888888888889,
+            "mean_prompt_tokens": 1814.1444444444444,
+            "mean_total_tokens": 2501.1944444444443,
             "frac_routed_easy": 0.08888888888888889,
             "under_triage_rate": 0.08888888888888889
           },
@@ -3391,6 +3633,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6,
             "mean_llm_calls": 11.511111111111111,
+            "mean_prompt_tokens": 1764.6777777777777,
+            "mean_total_tokens": 2451.0555555555557,
             "frac_routed_easy": 0.1111111111111111,
             "under_triage_rate": 0.08888888888888889
           }
@@ -3421,6 +3665,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5944444444444444,
             "mean_llm_calls": 11.405555555555555,
+            "mean_prompt_tokens": 1734.8159722222222,
+            "mean_total_tokens": 2401.6847222222223,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.08611111111111111
           },
@@ -3447,6 +3693,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.07515416254704824,
             "mean_llm_calls": 0.2190749350347819,
+            "mean_prompt_tokens": 43.28764012193768,
+            "mean_total_tokens": 53.85059863529493,
             "frac_routed_easy": 0.03333333333333333,
             "under_triage_rate": 0.01332175423142422
           }
@@ -3475,6 +3723,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.0,
             "mean_llm_calls": 11.405555555555555,
+            "mean_prompt_tokens": 1734.8159722222222,
+            "mean_total_tokens": 2401.6847222222223,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.08611111111111111
           },
@@ -3501,6 +3751,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.0,
             "mean_llm_calls": 0.2190749350347819,
+            "mean_prompt_tokens": 43.28764012193768,
+            "mean_total_tokens": 53.85059863529493,
             "frac_routed_easy": 0.03333333333333333,
             "under_triage_rate": 0.01332175423142422
           }
@@ -3529,6 +3781,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5944444444444444,
             "mean_llm_calls": 9.08611111111111,
+            "mean_prompt_tokens": 1634.5541666666666,
+            "mean_total_tokens": 2099.5944444444444,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.08611111111111111
           },
@@ -3555,6 +3809,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.07515416254704824,
             "mean_llm_calls": 0.18870497582531973,
+            "mean_prompt_tokens": 41.6371763925885,
+            "mean_total_tokens": 49.014016403599854,
             "frac_routed_easy": 0.03333333333333333,
             "under_triage_rate": 0.01332175423142422
           }
@@ -3583,6 +3839,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5944444444444444,
             "mean_llm_calls": 11.405555555555555,
+            "mean_prompt_tokens": 1734.8159722222222,
+            "mean_total_tokens": 2401.6847222222223,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.08611111111111111
           },
@@ -3609,6 +3867,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.07515416254704824,
             "mean_llm_calls": 0.2190749350347819,
+            "mean_prompt_tokens": 43.28764012193768,
+            "mean_total_tokens": 53.85059863529493,
             "frac_routed_easy": 0.03333333333333333,
             "under_triage_rate": 0.01332175423142422
           }
@@ -3637,6 +3897,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5944444444444444,
             "mean_llm_calls": 11.405555555555555,
+            "mean_prompt_tokens": 1734.8159722222222,
+            "mean_total_tokens": 2401.6847222222223,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.08611111111111111
           },
@@ -3663,6 +3925,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.07515416254704824,
             "mean_llm_calls": 0.2190749350347819,
+            "mean_prompt_tokens": 43.28764012193768,
+            "mean_total_tokens": 53.85059863529493,
             "frac_routed_easy": 0.03333333333333333,
             "under_triage_rate": 0.01332175423142422
           }
@@ -3691,6 +3955,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.5944444444444444,
             "mean_llm_calls": 11.405555555555555,
+            "mean_prompt_tokens": 1734.8159722222222,
+            "mean_total_tokens": 2401.6847222222223,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.08611111111111111
           },
@@ -3717,6 +3983,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.07515416254704824,
             "mean_llm_calls": 0.2190749350347819,
+            "mean_prompt_tokens": 43.28764012193768,
+            "mean_total_tokens": 53.85059863529493,
             "frac_routed_easy": 0.03333333333333333,
             "under_triage_rate": 0.01332175423142422
           }
@@ -3745,6 +4013,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.6305555555555555,
             "mean_llm_calls": 11.886111111111111,
+            "mean_prompt_tokens": 1862.8909722222222,
+            "mean_total_tokens": 2567.592361111111,
             "frac_routed_easy": 0.0,
             "under_triage_rate": 0.0
           },
@@ -3771,6 +4041,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.07930056902011223,
             "mean_llm_calls": 0.3274362627639761,
+            "mean_prompt_tokens": 69.22893141964134,
+            "mean_total_tokens": 90.75602273732571,
             "frac_routed_easy": 0.0,
             "under_triage_rate": 0.0
           }
@@ -3799,6 +4071,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.09166666666666667,
             "mean_llm_calls": 7.108333333333333,
+            "mean_prompt_tokens": 585.0013888888889,
+            "mean_total_tokens": 927.8618055555555,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.08611111111111111
           },
@@ -3825,6 +4099,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.04639803635691685,
             "mean_llm_calls": 0.08122328620674145,
+            "mean_prompt_tokens": 3.0541483502052906,
+            "mean_total_tokens": 4.21577581489464,
             "frac_routed_easy": 0.03333333333333333,
             "under_triage_rate": 0.01332175423142422
           }
@@ -3853,6 +4129,8 @@
             "verifier_recall": 1.0,
             "mean_hard_flags": 0.43333333333333335,
             "mean_llm_calls": 9.808333333333334,
+            "mean_prompt_tokens": 1355.5347222222222,
+            "mean_total_tokens": 1900.0604166666667,
             "frac_routed_easy": 0.1,
             "under_triage_rate": 0.08611111111111111
           },
@@ -3879,6 +4157,8 @@
             "verifier_recall": 0.0,
             "mean_hard_flags": 0.07114582486036498,
             "mean_llm_calls": 0.1431297003109807,
+            "mean_prompt_tokens": 30.043356241336063,
+            "mean_total_tokens": 38.76072615760262,
             "frac_routed_easy": 0.03333333333333333,
             "under_triage_rate": 0.01332175423142422
           }
